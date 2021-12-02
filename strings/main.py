@@ -17,7 +17,6 @@ name_short = player[:1] + '.' + player[player.find(" "):]
 chant = (first_name + '! ') * 5 + first_name + '!'
 good_chant = chant[-1:] != ' '
 
-print(good_chant)
 
 
 
